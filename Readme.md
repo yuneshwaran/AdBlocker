@@ -13,6 +13,16 @@
 </ol>
 
 <h2>Sources</h2>
+<h2>How to Use the Regex Filter Script</h2>
+<p>To use the regex filter script with Pi-hole, follow these steps:</p>
+<ol>
+  <li><strong>Prepare the Regex List File:</strong> Create a file named <code>regex.list</code> in the same directory as the script. This file should contain your regex filters, with each regex filter on a separate line.</li>
+  <li><strong>Run the Script:</strong> Execute the Python script to add the regex filters to Pi-hole. Make sure Pi-hole is installed and running on your system.</li>
+  <pre><code>python add_regex.py</code></pre>
+  <li><strong>Restart Pi-hole DNS:</strong> After adding the regex filters, restart Pi-hole DNS to apply the changes and start blocking matching domains.</li>
+  <pre><code>pihole restartdns</code></pre>
+</ol>
+
 <p> 
   <ul>
     <li><a href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Stock list</a></li>
