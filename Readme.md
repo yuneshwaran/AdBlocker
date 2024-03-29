@@ -5,7 +5,7 @@
 <p>To use these adlists with Pi-hole, follow these steps:</p>
 <ol>
   <li><strong>Clone the Repository:</strong> Clone this repository to your local machine or server where Pi-hole is installed.</li>
-  <pre><code>git clone https://github.com/yuneshwaran/pihole-adlists.git</code></pre>
+  <pre><code>git clone https://github.com/yuneshwaran/AdBlocker.git</code></pre>
   <li><strong>Add Adlists to Pi-hole:</strong> Add the adlists from this repository to your Pi-hole configuration. You can do this by navigating to your Pi-hole's web interface, clicking on "Group Management" &gt; "Adlists", and then adding each adlist URL manually or by using the command-line interface.</li>
   <li><strong>Update Gravity:</strong> After adding the adlists, update Pi-hole's gravity to apply the changes and block the ads from the added lists.</li>
   <pre><code>pihole -g</code></pre>
