@@ -12,7 +12,7 @@
   <li><strong>Optional: Regularly Update Adlists:</strong> It's recommended to regularly update the adlists in your Pi-hole configuration to ensure that you're blocking the latest ad domains and trackers.</li>
 </ol>
 
-<h2>Sources</h2>
+
 <h2>How to Use the Regex Filter Script</h2>
 <p>To use the regex filter script with Pi-hole, follow these steps:</p>
 <ol>
@@ -22,7 +22,7 @@
   <li><strong>Restart Pi-hole DNS:</strong> After adding the regex filters, restart Pi-hole DNS to apply the changes and start blocking matching domains.</li>
   <pre><code>pihole restartdns</code></pre>
 </ol>
-
+<h2>Sources</h2>
 <p> 
   <ul>
     <li><a href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Stock list</a></li>
