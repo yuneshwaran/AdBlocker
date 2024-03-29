@@ -7,7 +7,6 @@
   <li><strong>Clone the Repository:</strong> Clone this repository to your local machine or server where Pi-hole is installed.</li>
   <pre><code>git clone https://github.com/yuneshwaran/pihole-adlists.git</code></pre>
   <li><strong>Add Adlists to Pi-hole:</strong> Add the adlists from this repository to your Pi-hole configuration. You can do this by navigating to your Pi-hole's web interface, clicking on "Group Management" &gt; "Adlists", and then adding each adlist URL manually or by using the command-line interface.</li>
-  <pre><code>pihole -g</code></pre>
   <li><strong>Update Gravity:</strong> After adding the adlists, update Pi-hole's gravity to apply the changes and block the ads from the added lists.</li>
   <pre><code>pihole -g</code></pre>
   <li><strong>Optional: Regularly Update Adlists:</strong> It's recommended to regularly update the adlists in your Pi-hole configuration to ensure that you're blocking the latest ad domains and trackers.</li>
@@ -15,10 +14,10 @@
 
 <h2>Sources</h2>
 <p> 
-<a href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Stock list</a>
-<a href="https://oisd.nl/">OISD</a>
-<a href="https://github.com/lightswitch05/hosts">DeveloperDan</a>
-<a href="https://github.com/blocklistproject/Lists">BlocklistProjects</a>
+<ul href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Stock list</ul>
+<ul href="https://oisd.nl/">OISD</ul>
+<ul href="https://github.com/lightswitch05/hosts">DeveloperDan</ul>
+<ul href="https://github.com/blocklistproject/Lists">BlocklistProjects</ul>
 </p>
 
 <h2>Disclaimer</h2>
