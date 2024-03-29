@@ -14,10 +14,10 @@
 
 <h2>Sources</h2>
 <p> 
-<ul href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Stock list</ul>
-<ul href="https://oisd.nl/">OISD</ul>
-<ul href="https://github.com/lightswitch05/hosts">DeveloperDan</ul>
-<ul href="https://github.com/blocklistproject/Lists">BlocklistProjects</ul>
+<ul><a> href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"</a>>Stock list</ul>
+<ul><a> href="https://oisd.nl/">OISD</a></ul>
+<ul><a> href="https://github.com/lightswitch05/hosts">DeveloperDan</a></ul>
+<ul><a> href="https://github.com/blocklistproject/Lists">BlocklistProjects</a></ul>
 </p>
 
 <h2>Disclaimer</h2>
