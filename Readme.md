@@ -16,7 +16,6 @@
   <li><strong>Optional: Regularly Update Adlists:</strong> It's recommended to regularly update the adlists in your Pi-hole configuration to ensure that you're blocking the latest ad domains and trackers.</li>
 </ol>
 
-
 <h2>How to Use the Regex Filter Script</h2>
 <p>To use the regex filter script with Pi-hole, follow these steps:</p>
 <ol>
@@ -30,16 +29,15 @@
 <div style="display: flex;flex-wrap: wrap;">
   <div style="margin: 10px;text-align: center;">
     <h2 style=" margin-bottom: 5px">Without pi-hole</h2>
-    <img width="300px" src='./before.png'>
+    <img width="300px" src='./assets/without.png'>
   </div>
   <div style=" margin: 10px;text-align: center;">
     <h2 style=" margin-bottom: 5px">With pi-hole</h2> 
-    <img width="300px" src='./after.png'>
+    <img width="300px" src='./assets/with.png'>
   </div>   
 </div>
 
-<a href=https://d3ward.github.io/toolz/adblock">Adblocker Tester site</a>
-
+<a href="https://d3ward.github.io/toolz/adblock">Adblocker Tester site</a>
 
 <h2>Sources</h2>
 <p> 
