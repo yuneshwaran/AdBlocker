@@ -1,3 +1,7 @@
+<html>
+<head>
+</head>
+<body>
 <h1>Pi-hole Adlists Repository</h1>
 <p>Welcome to the Pi-hole Adlists Repository! This repository contains a curated collection of various adlists that you can use with Pi-hole, a network-wide ad blocker that runs on your Raspberry Pi or Linux server. By adding these adlists to your Pi-hole configuration, you can enhance your ad blocking capabilities and enjoy a cleaner browsing experience.</p>
 
@@ -22,6 +26,21 @@
   <li><strong>Restart Pi-hole DNS:</strong> After adding the regex filters, restart Pi-hole DNS to apply the changes and start blocking matching domains.</li>
   <pre><code>pihole restartdns</code></pre>
 </ol>
+
+<div style="display: flex;flex-wrap: wrap;">
+  <div style="margin: 10px;text-align: center;">
+    <h2 style=" margin-bottom: 5px">Without pi-hole</h2>
+    <img width="300px" src='./before.png'>
+  </div>
+  <div style=" margin: 10px;text-align: center;">
+    <h2 style=" margin-bottom: 5px">With pi-hole</h2> 
+    <img width="300px" src='./after.png'>
+  </div>   
+</div>
+
+<a href=https://d3ward.github.io/toolz/adblock">Adblocker Tester site</a>
+
+
 <h2>Sources</h2>
 <p> 
   <ul>
@@ -34,3 +53,5 @@
 
 <h2>Disclaimer</h2>
 <p>Please note that while these adlists are curated to block advertisements and trackers, they may also block legitimate content on some websites. Use them at your own discretion. Additionally, Pi-hole is a powerful tool, but it's not a silver bullet for blocking all ads and trackers. Some ads may still get through, especially those served from the same domain as the content you're trying to access.</p>
+</body>
+</html>
