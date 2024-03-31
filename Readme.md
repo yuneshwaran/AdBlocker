@@ -26,14 +26,14 @@
   <pre><code>pihole restartdns</code></pre>
 </ol>
 
-<div style="display: flex;flex-wrap: wrap;">
-  <div style="margin: 10px;text-align: center;">
-    <h2 style=" margin-bottom: 5px">Without pi-hole</h2>
-    <img width="300px" src='./assets/without.png'>
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <h2 style="margin-bottom: 5px;">Without pi-hole</h2>
+    <img width="300px" src="./assets/without.png" alt="Without pi-hole">
   </div>
-  <div style=" margin: 10px;text-align: center;">
-    <h2 style=" margin-bottom: 5px">With pi-hole</h2> 
-    <img width="300px" src='./assets/with.png'>
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <h2 style="margin-bottom: 5px;">With pi-hole</h2> 
+    <img width="300px" src="./assets/with.png" alt="With pi-hole">
   </div>   
 </div>
 
