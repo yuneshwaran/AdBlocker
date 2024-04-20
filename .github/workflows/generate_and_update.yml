@@ -3,6 +3,7 @@ name: Generate and Update Blocklist
 on:
   schedule:
     - cron: '0 8 * * *' # Run daily at 08:00 UTC
+  workflow_dispatch: # Manually trigger the workflow
 
 jobs:
   generate_and_update:
