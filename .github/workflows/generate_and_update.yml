@@ -3,7 +3,6 @@ name: Generate and Update Blocklist
 on:
   schedule:
     - cron: '0 8 * * *' # Run daily at 08:00 UTC
-  workflow_dispatch: # Manually trigger the workflow
 
 jobs:
   generate_and_update:
@@ -27,8 +26,12 @@ jobs:
       - name: Generate hosts files from ET Open rules
         run: python3 et2dns.py --rules emerging-all.suricata5.rules
       
+      - name: Create misc and output directories if not exist
+        run: |
+          mkdir -p misc output
+      
       - name: Copy artisanal index file (haha) and favicons
-        run: cp misc/* output/
+        run: cp misc/* output/ || true
       
       - name: Check for changes in output folder
         id: check_changes
