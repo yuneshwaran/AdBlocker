@@ -25,8 +25,8 @@ jobs:
         run: bash fetch_et_open.sh
       
       - name: Generate hosts files from ET Open rules
-        run: python3 et2dns.py --rules emerging-all.suricata5.rules
-        working-directory: output
+        run: |
+          python3 et2dns.py --rules emerging-all.suricata5.rules
       
       - name: Commit and push changes
         run: |
