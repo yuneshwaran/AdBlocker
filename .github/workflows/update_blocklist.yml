@@ -26,13 +26,12 @@ jobs:
       
       - name: Generate hosts files from ET Open rules
         run: python3 et2dns.py --rules emerging-all.suricata5.rules
-
+        working-directory: output
       
-      - name: Commit and push changes (if any)
-        if: steps.check_changes.outputs.changes == 'true'
+      - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@users.noreply.github.com"
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           git add output/*
-          git commit -m "Update blocklist files $(date +'%Y-%m-%d')"
+          git commit -m "Update generated files"
           git push
