@@ -75,14 +75,13 @@ def write_by_category(category, write_this):
 
 
 header = """# (Unofficial) Emerging Threats PiHole blocklist
-# https://github.com/tweedge/emerging-threats-pihole
 #
 # Category: {}
 # Description: {}
 # Utility: {}
 # Status: Beta / in development
 # Last modified: {}
-# Blocklist generated
+# Blocklist generated 
 """
 
 for category_name, category_content in categories.items():
