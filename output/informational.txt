@@ -1,12 +1,11 @@
 # (Unofficial) Emerging Threats PiHole blocklist
-# https://github.com/tweedge/emerging-threats-pihole
 #
 # Category: INFORMATIONAL
 # Description: Blocks more link shorteners, benign callbacks, and some potentially unwanted sites (ex. file sharing), etc.
 # Utility: Low - may be useful in certain strict corporate environments
 # Status: Beta / in development
-# Last modified: 2024-04-21
-# Blocklist generated
+# Last modified: 2024-04-22
+# Blocklist generated 
 
 0.0.0.0	iplogger.com
 0.0.0.0	freegeoip.net

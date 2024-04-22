@@ -1,12 +1,11 @@
 # (Unofficial) Emerging Threats PiHole blocklist
-# https://github.com/tweedge/emerging-threats-pihole
 #
 # Category: SUSPICIOUS
 # Description: Blocks link shorteners, pastebin services, games, etc.
 # Utility: Moderate - useful in strict corporate environments, maybe not at home
 # Status: Beta / in development
-# Last modified: 2024-04-21
-# Blocklist generated
+# Last modified: 2024-04-22
+# Blocklist generated 
 
 0.0.0.0	ddns.net
 0.0.0.0	ddnsking.com
