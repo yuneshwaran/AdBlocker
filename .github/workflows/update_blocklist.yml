@@ -28,7 +28,13 @@ jobs:
         run: |
           python3 et2dns.py --rules emerging-all.suricata5.rules
       
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet --exit-code || echo "Changes found"
+      
       - name: Commit and push changes
+        if: steps.check_changes.outputs.stdout == 'Changes found'
         run: |
           git config --global user.email "you@example.com"
           git config --global user.name "Your Name"
